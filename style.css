@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #E3EBED ;
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 2px solid #606062;
+  }
+
+.code {
+    border: 1px;
+    border-color: #606062;
+    background-color: #606062;
+  }
+  
+fieldset:last-of-type {
+    border-bottom: none;
+  }
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
