@@ -1,0 +1,180 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+    height: 100%;
+    background-color: #c0c6cb;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    display: block;
+    box-sizing: border-box;
+  }
+header {
+  width: 80%;
+  float: center;
+  height: 50px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+.nav a {
+  width: 80%;
+  padding: 15px;
+  margin: 15px;
+  line-height: 50px;
+  color: rgb(56, 55, 55);
+}
+.nav a:hover {
+  background-color: white;
+}
+.cv {
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  box-shadow: 0 0 10px #666;
+}
+.left {
+  width: 40%;
+  color: rgb(56, 55, 55); 
+  background-color: rgb(221, 218, 218);
+}
+img {
+  margin: 20px 40px;
+  padding: 0;
+  height: min-content;
+  border-radius: 100%;
+  width: 80%;
+}
+.cont {
+  margin: 90px auto 20px auto;
+}
+.contact-1 {
+  margin: 20px 100px;
+  list-style: none;
+  margin: 0;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 0;
+  margin-bottom: 15px
+}
+.language {
+  padding: 54px 0px;
+}
+.language-list {
+  margin: 20px 60px;
+  padding: 0;
+  list-style: none;
+}
+.language-1 {
+  margin: 20px 100px;
+  list-style: none;  margin: 0;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 0;
+  margin-bottom: 15px
+}
+
+.skill {
+  padding: 54px 0px;
+}
+.skill-list {
+  margin: 20px 60px;
+  padding: 0;
+  list-style: none;
+}
+.skill-1 {
+  margin: 20px 120px;
+  list-style: none;
+  margin: 0;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 0;
+  margin-bottom: 15px
+}
+.about-me {
+  text-align: center;
+  padding: 54px 0px;
+}
+.aboutme-text {
+  margin: 20px;
+  line-height: 1.5em;
+}
+.university {
+  text-align: center;
+}
+.l1 {
+  margin: 10px 180px;
+}
+.c1 {
+  margin: 10px 110px;
+}
+.h3-courses {
+  padding-top: 20px;
+}
+.h3-code {
+  padding-top: 20px;
+}
+pre, code {
+  margin: 10px 50px;
+}
+.line {
+  width: 80%;
+  margin: 0.5px auto 1px auto;
+  height: 0.5px;
+  background-color: rgb(56, 55, 55);
+}
+h1, h2, h3 {
+  display: block;
+  text-align: center;
+}
+.right {
+  padding: 1rem;
+  width: 60%;
+  color: rgb(56, 55, 55);
+  background-color: white;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  float: center;
+  margin: 20px auto;
+}
+.footer a {
+  width: 80%;
+  padding: 15px;
+  margin: 15px;
+  line-height: 50px;
+  color: rgb(56, 55, 55);
+}
+
+.git {
+  width: 55px;
+  height: 55px;
+}
+.rs {
+  width: 85px;
+  height: 55px;
+}
+
+
+footer .github-icon {
+  margin-right: 10px;
+}
+
+.year {
+  margin-top: 30px;
+  font-size: 20px;
+}
